@@ -1,0 +1,23 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int ch_lower = 'a';
+	int ch_upper = 'A';
+
+	while (ch_lower <= 'z')
+	{
+		putchar(ch_lower);
+		ch_lower++;
+	}
+	while (ch_upper <= 'Z')
+	{
+		putchar(ch_upper);
+		ch_upper++;
+	}
+	putchar('\n');
+}
