@@ -1,5 +1,5 @@
 #include "main.h"
-void _putchar(void);
+void _putchar(char);
 /**
  * main - Entry point
  *
@@ -7,6 +7,13 @@ void _putchar(void);
  */
 int main(void)
 {
-	_putchar();
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
